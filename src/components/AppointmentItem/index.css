@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.listItem {
+  height: 100px;
+  width: 300px;
+  border: 1px solid gray;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.titleImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #171f46;
+  font-weight: bold;
+}
+
+.formatDate {
+  color: #b5b7c4;
+  font-weight: bold;
+  font-size: 13px;
+}

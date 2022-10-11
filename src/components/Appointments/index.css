@@ -1,0 +1,101 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #b5b7c4;
+  font-weight: bold;
+}
+
+.image {
+  height: 250px;
+  width: 350px;
+}
+
+.textInput {
+  width: 180px;
+  height: 22px;
+  margin-bottom: 15px;
+}
+
+.main-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 70%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointmentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Appointments {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    display: none;
+  }
+}
+
+.unorderList {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addButton {
+  background-color: #8b5cf6;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 6px;
+  padding: 4px;
+  width: 40px;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.StarredBtn {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #9897f0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #9897f0;
+}
+
+.active {
+  background-color: #9796f0;
+  color: #ffffff;
+}
+
+.not-active {
+  background-color: transparent;
+}
